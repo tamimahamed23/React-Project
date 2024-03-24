@@ -1,0 +1,13 @@
+.f-job-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+
+@media screen and (min-width:420px) and (max-width:960px) {
+    
+    .f-job-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
